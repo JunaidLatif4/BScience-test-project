@@ -8,12 +8,16 @@
 	max-width: 100%;
 	flex-basis: 100%;
 	justify-content: center;
+	z-index: -1;
+	background-color: #10223c;
 
 	img {
 		position: absolute;
 		z-index: -2;
 		vertical-align: middle;
 		width: 100%;
+		object-fit: none;
+		height: 100%;
 	}
 	.section2_box {
 		display: flex;
@@ -48,18 +52,56 @@
 		}
 
 		.cards_box {
-			margin: 5rem;
+			margin: 5rem 0;
+			width: 100%;
 			display: flex;
+			justify-content: space-evenly;
 
 			.card {
+				position: relative;
+				// margin-right: 5%;
+				.shadow {
+					width: 410px;
+					height: 100%;
+					transform: rotate(3deg);
+					background-color: #000;
+					position: absolute;
+					top: 12px;
+					border-radius: 10px;
+					opacity: 1.6;
+					right: -5px;
+				}
 				.data {
+					width: 345px;
+					background-color: #23436e;
+					background: transparent linear-gradient(326deg, #152e51, #23436e) 0 0 no-repeat padding-box;
+					border-radius: 15px;
+					padding: 30px;
+					position: relative;
+
 					.img {
-						height: 100px;
+						height: 140px;
+						display: flex;
+						justify-content: center;
 						img {
+							height: 140px;
+							width: fit-content;
+							z-index: 2;
 						}
 					}
 
 					.detail {
+						p {
+							text-align: left;
+							font-size: 16px;
+							opacity: 0.7;
+							font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+							font-weight: 400;
+							line-height: 1.43;
+							letter-spacing: 0.01071em;
+							color: #fff;
+							padding: 17px;
+						}
 					}
 				}
 			}

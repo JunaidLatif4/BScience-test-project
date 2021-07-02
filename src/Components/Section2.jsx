@@ -24,16 +24,17 @@ const Section2 = () => {
                                 <div className="img">
                                     <img src={CardImg1} alt="ERROR" />
                                 </div>
-                                <div className="detail">Lorem ipsum dolor sit ads amet, consetetur sadeasd sadipscing elitr, sed diam nonumy asie eirmod lorem tempor invidunt ut labore et de</div>
+                                <div className="detail"> <p> Lorem ipsum dolor sit ads amet, consetetur sadeasd sadipscing elitr, sed diam nonumy asie eirmod lorem tempor invidunt ut labore et de </p></div>
                             </div>
                         </div>
+
                         <div className="card">
                             <div className="shadow"></div>
                             <div className="data">
                                 <div className="img">
                                     <img src={CardImg2} alt="ERROR" />
                                 </div>
-                                <div className="detail">Lorem ipsum dolor sit ads amet, consetetur sadeasd sadipscing elitr, sed diam nonumy asie eirmod lorem tempor invidunt ut labore et de</div>
+                                <div className="detail"> <p> Lorem ipsum dolor sit ads amet, consetetur sadeasd sadipscing elitr, sed diam nonumy asie eirmod lorem tempor invidunt ut labore et de </p> </div>
                             </div>
                         </div>
                         <div className="card">
@@ -42,7 +43,7 @@ const Section2 = () => {
                                 <div className="img">
                                     <img src={CardImg3} alt="ERROR" />
                                 </div>
-                                <div className="detail">Lorem ipsum dolor sit ads amet, consetetur sadeasd sadipscing elitr, sed diam nonumy asie eirmod lorem tempor invidunt ut labore et de</div>
+                                <div className="detail"> <p> Lorem ipsum dolor sit ads amet, consetetur sadeasd sadipscing elitr, sed diam nonumy asie eirmod lorem tempor invidunt ut labore et de </p> </div>
                             </div>
                         </div>
 

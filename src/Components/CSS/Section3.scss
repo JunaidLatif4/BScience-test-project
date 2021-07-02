@@ -1,0 +1,59 @@
+.section3_container {
+	background-color: rgb(16, 34, 60);
+	margin: -10% 0;
+	position: relative;
+	z-index: -3;
+	.img1 {
+		position: absolute;
+		left: 50%;
+		top: 20%;
+	}
+	.img2 {
+		position: absolute;
+		left: -40%;
+		width: 95%;
+	}
+	.img3 {
+		position: absolute;
+		width: 75%;
+		right: -12%;
+		top: 10%;
+	}
+
+	.section3_box {
+		width: 80%;
+		margin: 0 auto;
+		padding: 20% 0;
+		padding-bottom: 30%;
+
+		.data {
+			width: 50%;
+
+			h1 {
+				font-size: 45px;
+				color: #f6d869;
+				font-family: 'Poppins';
+				text-align: left;
+			}
+			hr {
+				border: 1px solid #f6d869;
+				background-color: #f6d869;
+				border-radius: 1rem;
+				width: 15%;
+			}
+
+			p {
+				margin-top: 30px;
+				font-size: 16px;
+				font-weight: lighter;
+				color: #fff;
+				font-family: 'Poppins';
+				text-align: left;
+
+				span {
+					color: #f0b90b;
+				}
+			}
+		}
+	}
+}
