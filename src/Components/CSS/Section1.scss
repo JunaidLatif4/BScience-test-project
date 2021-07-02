@@ -1,7 +1,6 @@
 .section1_container {
 	box-sizing: border-box;
 	background-color: #10223c;
-	// z-index: -10;
 
 	.section1_box {
 		display: grid;
@@ -63,6 +62,7 @@
 			flex-grow: 0;
 			max-width: 50%;
 			flex-basis: 50%;
+
 			img {
 				position: absolute !important;
 				top: 30px !important;
