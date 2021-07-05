@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/BScience-test-project/static/css/main.ffc66db1.chunk.css",
+    "main.js": "/BScience-test-project/static/js/main.dfa34cd1.chunk.js",
+    "main.js.map": "/BScience-test-project/static/js/main.dfa34cd1.chunk.js.map",
+    "runtime-main.js": "/BScience-test-project/static/js/runtime-main.087748c0.js",
+    "runtime-main.js.map": "/BScience-test-project/static/js/runtime-main.087748c0.js.map",
+    "static/js/2.8096caa7.chunk.js": "/BScience-test-project/static/js/2.8096caa7.chunk.js",
+    "static/js/2.8096caa7.chunk.js.map": "/BScience-test-project/static/js/2.8096caa7.chunk.js.map",
+    "index.html": "/BScience-test-project/index.html",
+    "static/css/main.ffc66db1.chunk.css.map": "/BScience-test-project/static/css/main.ffc66db1.chunk.css.map",
+    "static/js/2.8096caa7.chunk.js.LICENSE.txt": "/BScience-test-project/static/js/2.8096caa7.chunk.js.LICENSE.txt",
+    "static/media/background.98338617.svg": "/BScience-test-project/static/media/background.98338617.svg",
+    "static/media/background2.b9dad4c1.svg": "/BScience-test-project/static/media/background2.b9dad4c1.svg",
+    "static/media/background3.dfbdf7c7.svg": "/BScience-test-project/static/media/background3.dfbdf7c7.svg",
+    "static/media/background4.c67a55ab.svg": "/BScience-test-project/static/media/background4.c67a55ab.svg",
+    "static/media/background5.91784cf9.svg": "/BScience-test-project/static/media/background5.91784cf9.svg",
+    "static/media/background6.d06f25bd.svg": "/BScience-test-project/static/media/background6.d06f25bd.svg",
+    "static/media/background7.c259f71c.svg": "/BScience-test-project/static/media/background7.c259f71c.svg",
+    "static/media/background8.e048545d.svg": "/BScience-test-project/static/media/background8.e048545d.svg",
+    "static/media/background9.21bd7537.png": "/BScience-test-project/static/media/background9.21bd7537.png",
+    "static/media/card1.e6339a1f.svg": "/BScience-test-project/static/media/card1.e6339a1f.svg",
+    "static/media/card2.1f82014d.svg": "/BScience-test-project/static/media/card2.1f82014d.svg",
+    "static/media/card3.f884e753.svg": "/BScience-test-project/static/media/card3.f884e753.svg",
+    "static/media/dash.53953892.svg": "/BScience-test-project/static/media/dash.53953892.svg",
+    "static/media/logo.78dbbc91.png": "/BScience-test-project/static/media/logo.78dbbc91.png",
+    "static/media/title.7977d98b.svg": "/BScience-test-project/static/media/title.7977d98b.svg",
+    "static/media/titlembl.beb5a5f9.png": "/BScience-test-project/static/media/titlembl.beb5a5f9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.087748c0.js",
+    "static/js/2.8096caa7.chunk.js",
+    "static/css/main.ffc66db1.chunk.css",
+    "static/js/main.dfa34cd1.chunk.js"
+  ]
+}
