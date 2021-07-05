@@ -33,7 +33,7 @@ const Section7 = () => {
                         <TwitterIcon className={classes.btn}/>
                     </div>
                     <hr />
-                    <p> © Copyright Bscience</p>
+                    <p> © Copyright Bscience &nbsp; &nbsp; | &nbsp; &nbsp; Powered By <span> <a style={{textDecoration:"none" , color:"#f6d869" , cursor:"pointer"}} href="/"> SoftThrive </a> </span></p>
                 </div>
             </div>
         </>
