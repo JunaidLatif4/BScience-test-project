@@ -2,6 +2,7 @@ import React from 'react'
 
 import BackImg7 from '../imgs/background7.svg'
 import './CSS/Section5.scss'
+import Section5CardsMbl from './Section5CardsMbl'
 
 const Section5 = () => {
     return (
@@ -56,6 +57,9 @@ const Section5 = () => {
                             <p>Q1</p>
                         </div>
                     </div>
+                </div>
+                <div className="section5cardmbl">
+                    <Section5CardsMbl />
                 </div>
             </div>
         </>

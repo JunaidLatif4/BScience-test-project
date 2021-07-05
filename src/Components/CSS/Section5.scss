@@ -6,13 +6,13 @@
   z-index: -2;
   overflow: hidden;
 
-  @media only screen and (max-width:1800px){
+  @media only screen and (max-width: 1800px) {
     padding-bottom: 3rem;
   }
-  @media only screen and (max-width:1700px){
+  @media only screen and (max-width: 1700px) {
     padding-bottom: 2rem;
   }
-  @media only screen and (max-width:1400px){
+  @media only screen and (max-width: 1400px) {
     padding-bottom: 1rem;
   }
 
@@ -22,14 +22,19 @@
     top: -8%;
     z-index: -1;
 
-    @media only screen and (max-width:1550px){
+    @media only screen and (max-width: 1550px) {
       top: -6%;
     }
-    @media only screen and (max-width:1450px){
+    @media only screen and (max-width: 1450px) {
       top: -2%;
     }
-    @media only screen and (max-width:1350px){
+    @media only screen and (max-width: 1350px) {
       top: 5%;
+    }
+    @media only screen and (max-width: 800px) {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
   .heading {
@@ -60,14 +65,14 @@
     justify-content: space-evenly;
     align-items: center;
 
-    @media only screen and (max-width:1650px){
+    @media only screen and (max-width: 1650px) {
       margin-top: 3rem;
     }
-    @media only screen and (max-width:1400px){
+    @media only screen and (max-width: 1400px) {
       margin-top: 2rem;
     }
-    @media only screen and (max-width:800px){
-      flex-direction: column;
+    @media only screen and (max-width: 800px) {
+      display: none;
     }
 
     .card {
@@ -77,7 +82,7 @@
       align-items: center;
       width: 17%;
 
-      @media only screen and (max-width:800px){
+      @media only screen and (max-width: 800px) {
         width: 50%;
       }
 
