@@ -1,39 +1,57 @@
-.footer_container{
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    background-color: rgb(12, 26, 46);
-    padding: 3rem 0;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+.footer_container {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: rgb(12, 26, 46);
+  padding: 3rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 
-    .data{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+  .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-        .icons{
-
-        }
-
-        hr{
-            color: #f6d869;
-            border: 1px solid #f6d869;
-            width: 5%;
-            margin: 1rem 0;
-
-            @media only screen and (max-width:800px){
-                width: 10%;
-            }
-            @media only screen and (max-width:500px){
-                width: 20%;
-            }
-        }
-        p{
-            color: white;
-            @media only screen and (max-width:450px){
-                font-size: small;
-            }
-        }
+    .icons {
     }
+
+    hr {
+      color: #f6d869;
+      border: 1px solid #f6d869;
+      width: 5%;
+      margin: 1rem 0;
+
+      @media only screen and (max-width: 800px) {
+        width: 10%;
+      }
+      @media only screen and (max-width: 500px) {
+        width: 20%;
+      }
+    }
+    p {
+      color: white;
+
+      @media only screen and (max-width: 450px) {
+        font-size: small;
+      }
+      @media only screen and (max-width: 400px) {
+        font-size: x-small;
+      }
+
+      span {
+        a {
+          text-decoration: none;
+          color: #f6d869;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+            color: red;
+          }
+        }
+      }
+    }
+  }
 }
