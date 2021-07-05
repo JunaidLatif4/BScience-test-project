@@ -9,6 +9,8 @@ import Section5 from './Components/Section5'
 import Section6 from './Components/Section6'
 import Footer from './Components/Footer'
 
+import Header from './Components/Header'
+
 import './App.scss'
 
 const App = () => {

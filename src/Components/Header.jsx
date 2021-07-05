@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom"
 
 import Logo from '../imgs/logo.png'
 
+import MblHeader from './MobileHeader'
+
 import './CSS/Header.scss'
 const Header = () => {
 
@@ -20,6 +22,9 @@ const Header = () => {
                             <NavLink to="/" className="navlink"> Roadmap </NavLink>
                             <NavLink to="/" className="navlink"> <button> Farming </button> </NavLink>
                         </nav>
+                        <div className="mblheader">
+                            <MblHeader/>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,46 +1,66 @@
 .header_container {
-	position: sticky;
-	top: 0;
-	width: 100%;
-	z-index: 5;
-	transition: 1s;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  transition: 1s;
 
-	.header_box {
-		margin: 0 auto;
-		width: 70%;
-	}
-	.header_data {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		.logo {
-			height: 90pt;
+  .header_box {
+    margin: 0 auto;
+    width: 70%;
 
-			img {
-				height: 100%;
-			}
-		}
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+    }
+  }
+  .header_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      height: 90pt;
 
-		.nav {
-			a {
-				padding: 1rem 1rem 1rem 0.5rem;
-				text-decoration: none;
-				color: #f6d869;
-				font-size: 1rem;
-				font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-			}
-			button {
-				cursor: pointer;
-				color: #f6d869;
-				background-color: #0c1b30;
-				font-size: 20px;
-				text-align: center;
-				font-family: 'Poppins';
-				border: 2px solid #64592f;
-				border-radius: 30px;
-				box-shadow: 0 0 10px -3px #f6d869;
-				padding: 0.5rem 1.5rem;
-			}
-		}
-	}
+      img {
+        height: 100%;
+      }
+
+	  @media only screen and (max-width:800px){
+		height: 60pt;
+	  }
+
+    }
+
+    .nav {
+      @media only screen and (max-width: 800px) {
+        display: none;
+      }
+      a {
+        padding: 1rem 1rem 1rem 0.5rem;
+        text-decoration: none;
+        color: #f6d869;
+        font-size: 1rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      }
+      button {
+        cursor: pointer;
+        color: #f6d869;
+        background-color: #0c1b30;
+        font-size: 20px;
+        text-align: center;
+        font-family: "Poppins";
+        border: 2px solid #64592f;
+        border-radius: 30px;
+        box-shadow: 0 0 10px -3px #f6d869;
+        padding: 0.5rem 1.5rem;
+      }
+    }
+  }
+}
+
+.mblheader {
+  display: block;
+
+  @media only screen and (min-width: 801px) {
+    display: none;
+  }
 }

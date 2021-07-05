@@ -11,6 +11,7 @@ import Header from './Header'
 
 import BackImg from "../imgs/background.svg"
 import TitleImg from '../imgs/title.svg'
+import TitleImgMbl from '../imgs/titlembl.png'
 import './CSS/Section1.scss'
 
 
@@ -33,6 +34,7 @@ const Section1 = () => {
             <div className="section1_container" style={{ backgroundImage: `url(${BackImg})` }} >
                 <Header />
                 <div className="section1_box">
+                    <img src={TitleImgMbl} alt="ERROR" className="titleimgmbl" />
                     <div className="data">
                         <p className="title">
                             Bscience

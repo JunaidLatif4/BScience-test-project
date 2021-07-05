@@ -21,10 +21,29 @@
 	@media only screen and (max-width:1350px){
 		margin-top: -30%;
 	}
+	@media only screen and (max-width:800px){
+		margin-top: -50%;
+	}
+	@media only screen and (max-width:600px){
+		margin-top: -60%;
+	}
+	@media only screen and (max-width:500px){
+		margin-top: -80%;
+	}
+	@media only screen and (max-width:350px){
+		margin-top: -90%;
+	}
 
 	.backimg {
 		position: absolute;
 		left: -360px;
+
+		@media only screen and (max-width:800px){
+			left: -450px;
+		}
+		@media only screen and (max-width:550px){
+			left: -550px;
+		}
 	}
 
 	.padding {

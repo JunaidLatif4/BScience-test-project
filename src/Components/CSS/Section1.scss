@@ -17,6 +17,28 @@
 		@media only screen and (max-width:1400px){
 			padding: 8rem 0;
 		}
+		@media only screen and (max-width:800px){
+			grid-template-columns: 1fr .3fr;
+			padding: 7rem 0;
+		}
+
+
+		@media only screen and (max-width:600px){
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: 4rem 0;
+		}
+		@media only screen and (max-width:450px){
+			padding: 2rem 0;
+		}
+
+		.titleimgmbl{
+			display: block;
+			@media only screen and (min-width: 601px){
+				display: none;
+			}
+		}
 
 		.data {
 			display: flex;
@@ -37,6 +59,12 @@
 				max-width: 88.666667%;
 				flex-basis: 88.666667%;
 			}
+			@media only screen and (max-width:601px){
+				max-width: 90%;
+				flex-basis: 90%;
+				margin:0 auto;
+			}
+			
 
 			p {
 				color: #f6d869;
@@ -45,13 +73,37 @@
 				font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 				margin: 0;
 				margin-bottom: 1rem;
+
+				@media only screen and (max-width:800px){
+					font-size: 3rem;
+				}
+				
+			}
+			.title{
+				@media only screen and (max-width:600px){
+					display: none;
+				}
 			}
 			.discription1 {
 				color: #fff;
 				font-size: 2rem;
+
+				@media only screen and (max-width:800px){
+					font-size: 1.5rem;
+				}
+				@media only screen and (max-width:450px){
+					font-size: 1.2rem;
+				}
 			}
 			.discription2 {
 				font-size: 3rem;
+
+				@media only screen and (max-width:800px){
+					font-size: 2rem;
+				}
+				@media only screen and (max-width:450px){
+					font-size: 1.5rem;
+				}
 			}
 
 			.btns {
@@ -67,9 +119,13 @@
 					box-sizing: border-box;
 					border-radius: 13px;
 					box-shadow: 0 0 10px -3px #f6d869;
-					padding: 0.5rem 0.5rem;
-					margin: 0 0.3rem;
+					padding: 0.5rem;
+					margin: 0 0.3rem .5rem 0.3rem;
 					width: 120px;
+
+					@media only screen and (max-width:800px){
+						padding: 0.4rem;
+					}
 				}
 			}
 		}
@@ -79,11 +135,19 @@
 			max-width: 50%;
 			flex-basis: 50%;
 
+			@media only screen and (max-width:600px){
+				display: none;
+			}
+
 			img {
-				position: absolute !important;
-				top: 30px !important;
-				right: -15% !important;
-				width: 65% !important;
+				position: absolute ;
+				top: 30px ;
+				right: -15% ;
+				width: 65% ;
+
+				@media only screen and (max-width:800px){
+					top: 10%;
+				}
 			}
 		}
 

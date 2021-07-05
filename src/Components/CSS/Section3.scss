@@ -4,6 +4,11 @@
 	position: relative;
 	z-index: -3;
 	overflow: hidden;
+
+	@media only screen and (max-width: 800px) {
+		padding-bottom: 5rem;
+	  }
+
 	.img1 {
 		position: absolute;
 		left: 50%;
@@ -19,6 +24,7 @@
 		width: 75%;
 		right: -12%;
 		top: 10%;
+		z-index: -2;
 	}
 
 	.section3_box {
@@ -29,6 +35,13 @@
 
 		.data {
 			width: 50%;
+			
+			@media only screen and (max-width: 800px) {
+				width: 80%;
+			  }
+			@media only screen and (max-width: 400px) {
+				width: 95%;
+			  }
 
 			h1 {
 				font-size: 45px;
