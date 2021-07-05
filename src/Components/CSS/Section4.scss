@@ -6,6 +6,22 @@
 	margin-top: -16%;
 	flex-direction: column;
 
+	@media only screen and (max-width:1850px){
+		margin-top: -17%;
+	}
+	@media only screen and (max-width:1750px){
+		margin-top: -18%;
+	}
+	@media only screen and (max-width:1650px){
+		margin-top: -19%;
+	}
+	@media only screen and (max-width:1550px){
+		margin-top: -23%;
+	}
+	@media only screen and (max-width:1350px){
+		margin-top: -30%;
+	}
+
 	.backimg {
 		position: absolute;
 		left: -360px;
@@ -76,6 +92,10 @@
 				.detail {
 					margin: 3rem 0 6rem 0;
 					width: 60%;
+
+					@media only screen and (max-width:1400px){
+						width: 75%;
+					}
 
 					p {
 						opacity: 0.8;

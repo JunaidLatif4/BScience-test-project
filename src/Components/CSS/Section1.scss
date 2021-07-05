@@ -11,6 +11,13 @@
 		overflow: hidden;
 		position: relative;
 
+		@media only screen and (max-width:1600px){
+			padding: 10rem 0;
+		}
+		@media only screen and (max-width:1400px){
+			padding: 8rem 0;
+		}
+
 		.data {
 			display: flex;
 			flex-direction: column;
@@ -21,6 +28,15 @@
 			flex-grow: 0;
 			max-width: 66.666667%;
 			flex-basis: 66.666667%;
+
+			@media only screen and (max-width:1600px){
+				max-width: 77.666667%;
+				flex-basis: 77.666667%;
+			}
+			@media only screen and (max-width:1400px){
+				max-width: 88.666667%;
+				flex-basis: 88.666667%;
+			}
 
 			p {
 				color: #f6d869;

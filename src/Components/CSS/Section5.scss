@@ -6,11 +6,31 @@
   z-index: -2;
   overflow: hidden;
 
+  @media only screen and (max-width:1800px){
+    padding-bottom: 3rem;
+  }
+  @media only screen and (max-width:1700px){
+    padding-bottom: 2rem;
+  }
+  @media only screen and (max-width:1400px){
+    padding-bottom: 1rem;
+  }
+
   .back {
     width: 100%;
     position: absolute;
-    top: -5rem;
+    top: -8%;
     z-index: -1;
+
+    @media only screen and (max-width:1550px){
+      top: -6%;
+    }
+    @media only screen and (max-width:1450px){
+      top: -2%;
+    }
+    @media only screen and (max-width:1350px){
+      top: 5%;
+    }
   }
   .heading {
     padding-top: 2rem;
@@ -39,6 +59,13 @@
     display: flex;
     justify-content: space-evenly;
 
+    @media only screen and (max-width:1650px){
+      margin-top: 3rem;
+    }
+    @media only screen and (max-width:1400px){
+      margin-top: 2rem;
+    }
+
     .card {
       display: flex;
       flex-direction: column;
@@ -57,6 +84,10 @@
         margin: 1rem 0;
         text-align: center;
         line-height: 1.3rem;
+
+        @media only screen and (max-width: 1500px) {
+          font-size: 11px;
+        }
       }
       .year {
         border: 10px solid #f6d869;
@@ -81,6 +112,36 @@
           border: 2px dashed #f6d869;
           width: 235%;
           transform: rotate(340deg);
+
+          @media only screen and (max-width: 1850px) {
+            top: 71%;
+            right: 93%;
+            transform: rotate(334deg);
+          }
+          @media only screen and (max-width: 1750px) {
+            top: 71%;
+            right: 93%;
+            transform: rotate(334deg);
+            width: 215%;
+          }
+          @media only screen and (max-width: 1650px) {
+            top: 71%;
+            right: 95%;
+            transform: rotate(334deg);
+            width: 195%;
+          }
+          @media only screen and (max-width: 1550px) {
+            top: 70%;
+            right: 92%;
+            transform: rotate(332deg);
+            width: 180%;
+          }
+          @media only screen and (max-width: 1450px) {
+            top: 74%;
+            right: 92%;
+            transform: rotate(330deg);
+            width: 160%;
+          }
         }
         .border_up {
           position: absolute;
@@ -89,6 +150,27 @@
           border: 2px dashed #f6d869;
           width: 235%;
           transform: rotate(22deg);
+
+          @media only screen and (max-width: 1850px) {
+            top: -18%;
+            right: 98%;
+            width: 220%;
+            transform: rotate(24deg);
+          }
+          @media only screen and (max-width: 1750px) {
+            right: 92%;
+            width: 215%;
+            transform: rotate(28deg);
+          }
+          @media only screen and (max-width: 1650px) {
+            width: 195%;
+          }
+          @media only screen and (max-width: 1550px) {
+            width: 180%;
+          }
+          @media only screen and (max-width: 1450px) {
+            width: 165%;
+          }
         }
       }
     }
